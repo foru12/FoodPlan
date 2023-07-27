@@ -33,8 +33,7 @@ class DashboardFragment : Fragment() {
         dashboardViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
-        //f
-        Log.d("engoer","fmwef")
+
         return root
     }
 
